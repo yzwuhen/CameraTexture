@@ -92,10 +92,12 @@ public class CusPlayerFrameLayout extends FrameLayout {
 
     }
 
+    //设置播放视频的Url
     public void setUrl(String url){
         this.mUrl = url;
     }
 
+    //设置封面Url
     public void setCoverUrl(String coverUrl){
         this.mCoverUrl =coverUrl;
     }
@@ -207,6 +209,7 @@ public class CusPlayerFrameLayout extends FrameLayout {
 
     }
 
+    //这里统一设置监听，后续如果有需要再分开处理
     private void initMediaPlayer() {
 
         if (mMediaPlayer == null){
