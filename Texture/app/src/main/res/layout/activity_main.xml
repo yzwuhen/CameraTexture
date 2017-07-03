@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zywuhen.texture.texturedemo.MainActivity">
+
+    <com.zywuhen.texture.texturedemo.CusPlayerFrameLayout
+        android:id="@+id/cus_player"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.zywuhen.texture.texturedemo.CusPlayerFrameLayout>
+    <!--
+        <EditText
+            android:padding="30dp"
+            android:layout_width="match_parent"
+            android:textCursorDrawable="@drawable/line"
+            android:layout_height="80dp"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="sssssssssssssdsd"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView"/>
+</RelativeLayout>
